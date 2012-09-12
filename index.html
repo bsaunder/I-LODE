@@ -1,0 +1,62 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>ILOsys v2 Beta</title>
+<script type="text/javascript">
+	if(navigator.appName == "WebTV"){
+ 		alert("This System Does Not Support WebTV.")
+ 		location.replace("index.html");
+	}else if(navigator.appName == "Netscape"){
+		version=parseFloat(navigator.appVersion);
+ 		if(version < 4){
+ 			alert("Please Upgrade to Netscape Navigator 4+.")
+ 			location.replace("ns_error.html");
+ 		} else {
+ 			// Allow to Continue
+ 		}
+	}else if(navigator.appName == "Microsoft Internet Explorer"){
+		temp=navigator.appVersion.split("MSIE");
+		version=parseFloat(temp[1]);
+ 		if(version < 4){
+ 			alert("Please Upgrade to Internet Explorer 4+.")
+ 			location.replace("error.html");
+ 		} else {
+ 			// Allow to Continue
+ 		}
+	}
+</script>
+</head>
+
+<body link="#333399" vlink="#333399" alink="#333399" bgcolor="#666666">
+<br><br><br>
+<table align="center" border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="500" id="AutoNumber1" bgcolor="#FFFFFF">
+  <tr>
+    <td width="100%">
+    <p align="right"><font size="1" face="Arial"><a href="index.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
+    </font>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%">
+    <br>
+    <table align="center" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="95%" id="AutoNumber2">
+      <tr>
+        <td width="100%">
+        <font size="2" face="arial">
+        <!-- Start Learning Object Content -->
+        <b>Intelligent Learning Object User System</b></font><p>
+        <font face="arial" size="2">To Get Started, Please <a href="login.php">
+        Login</a></font></p>
+        <p><font face="arial" size="1">If you Currently do not have an account, 
+        or have forgotten your account password, then please contact the System 
+        Administrator.</font></td>
+      </tr>
+    </table>
+    <br>
+    </td>
+  </tr>
+</table>
+</body>
+</html>
